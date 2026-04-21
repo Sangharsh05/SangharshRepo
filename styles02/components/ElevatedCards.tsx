@@ -30,11 +30,11 @@ const styles = StyleSheet.create({
   headingText:{
         fontSize:24,
         fontWeight:'bold',
-        paddingHorizontal:8,
+        paddingHorizontal:4,
 
   },
   container:{
-    padding:8
+    padding:4
   },
   card:{
     justifyContent:'center',
@@ -44,6 +44,14 @@ const styles = StyleSheet.create({
     margin:5
   },
   cardelevated:{
-    backgroundColor:'#ff0'
+    backgroundColor:'#CAD5E2',
+    elevation:4,
+    shadowOffset:{
+      width:1,
+      height:1
+    },
+    shadowColor:'#ff0000',
+    shadowOpacity:0.2,
+    shadowRadius:2
   }
 })

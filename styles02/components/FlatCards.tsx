@@ -27,13 +27,13 @@ const styles = StyleSheet.create({
     headingText:{
         fontSize:28,
         fontWeight:'bold',
-        paddingHorizontal:8,
+        paddingHorizontal:4,
 
     },
     container:{
         flex:1,
         flexDirection: 'row',
-        padding:28,
+        padding:4,
     },
     card:{
         
@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
         width:100,
         justifyContent:'center',
         alignItems:'center',
-        margin:8,
+        margin:4,
         borderRadius:4
     },
     cardone:{
