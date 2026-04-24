@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "react-native-haptic-feedback": "^3.0.0"
+  }
+}
