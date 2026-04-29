@@ -2,12 +2,12 @@ import { StyleSheet, Text, View, ImageSourcePropType, Image, Pressable} from 're
 import type {PropsWithChildren} from 'react';
 import React,{useState} from 'react'
 
-const DiceOne = require('../../../assets/images/one.png');
-const DiceTwo = require('../../../assets/images/two.png');
-const DiceThree = require('../../../assets/images/three.png');
-const DiceFour = require('../../../assets/images/four.png');
-const DiceFive = require('../../../assets/images/five.png');
-const DiceSix = require('../../../assets/images/six.png');
+const DiceOne = require('../../assets/images/one.png');
+const DiceTwo = require('../../assets/images/two.png');
+const DiceThree = require('../../assets/images/three.png');
+const DiceFour = require('../../assets/images/four.png');
+const DiceFive = require('../../assets/images/five.png');
+const DiceSix = require('../../assets/images/six.png');
 
 type DiceProps = PropsWithChildren<{
   imageUrl: ImageSourcePropType
